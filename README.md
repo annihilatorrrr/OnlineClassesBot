@@ -30,4 +30,5 @@ Linux:
 * cd OnlineClassesBot
 * python setup.py
 * python zoom_bot.py
+
 Walk Away and let the Bot do its work.
