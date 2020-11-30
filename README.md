@@ -10,14 +10,16 @@ On Windows:
 > Open Command Prompt and run the follow commands:
 
 
-   cd path\to\the\folder\where\you\extracted\the\contents
+'''sh
+cd path\to\the\folder\where\you\extracted\the\contents
 python setup.py 
-
+'''
 > The Bot is ready to work now.
 > Put the invite link of your 1st online class in 'meeting_link1.txt' and the invite link of 2nd class in 'meeting_link.txt'.
 > Run the following command to run the bot:
 
 
-  cd path\to\the\folder\where\you\extracted\the\contents
+'''sh
+cd path\to\the\folder\where\you\extracted\the\contents
 python zoom_bot.py
-
+'''
