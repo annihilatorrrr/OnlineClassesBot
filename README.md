@@ -4,10 +4,10 @@ OnlineClassesBot is a Python Program which attends your Zoom Online Classes.
 
 ## Requirements
 
-* Chrome WebBrowser
-* Zoom Meeting App
-* Python
-* pip
+* Chrome WebBrowser https://www.google.com/chrome/
+* Zoom Meeting App https://zoom.us
+* Python https://python.org/
+* pip https://pip.pypa.io/en/stable/installing/
  
 ## Installation & Usage
 
@@ -16,7 +16,7 @@ On Windows:
  Download this repository and extract the contents.
  Open Command Prompt and run the follow commands:
 
->cd path\to\the\folder\where\you\extracted\the\contents
+>cd path/to/extracted/contents/
 
 >python -m pip install -r requirements.txt 
 
