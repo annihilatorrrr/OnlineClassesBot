@@ -1,30 +1,21 @@
-import datetime
 import time
 import keyboard
-import os
 from selenium import webdriver
+from config import delay, meeting_links as links
+
 class zoom_bot:
-	def join(self,meeting_link):
+	def join_meeting(self,meeting_link):
 		self.bot = webdriver.Chrome("chromedriver.exe")
 		self.bot.get(meeting_link)
-		time.sleep(3)
+		time.sleep(5)
 		keyboard.send("tab", do_press=True, do_release=True)
 		keyboard.send("tab", do_press=True, do_release=True)
 		keyboard.send("enter", do_press=True, do_release=True)
 		time.sleep(10)
-
 		self.bot.quit()
 
-link1 = open("meeting_link1.txt","r").read()
-link2 = open("meeting_link2.txt","r").read()
-
-obj = zoom_bot()
-obj.join(link1)
-
-time.sleep(3000)
-
-obj = zoom_bot()
-obj.join(link2)
-
-time.sleep(3000)
-
+bot = zoom_bot()
+for link in links:
+    bot.join_meeting(link)
+    if delay > 1:
+        time.sleep(delay)
