@@ -30,7 +30,7 @@ On Windows:
 
 On Linux:
 -
-Install ChromeWebDriver
+Install ChromeWebDriver with your Package Manager
 
 `git clone https://github.com/Kody-K/OnlineClassesBot/`
 
