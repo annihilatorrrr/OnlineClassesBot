@@ -33,6 +33,7 @@ On Windows:
 `python zoom_bot.py`
 
 On Linux:
+-
 
 `Download the .zip from 'https://chromedriver.chromium.org/downloads' according to your Chrome/Chromium Version`
 
