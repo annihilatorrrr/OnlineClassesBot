@@ -13,6 +13,8 @@ OnlineClassesBot is a Python Program which attends your Zoom Online Classes.
 
 On Windows:
 -
+> Download ChromeDriver from here 'https://chromedriver.chromium.org/downloads'
+ 
  Download this repository and extract the contents.
  Open Command Prompt and run the follow commands:
 
@@ -30,10 +32,13 @@ On Windows:
 
 `python zoom_bot.py`
 
-On Linux (Ubuntu):
--
+On Linux:
 
-`sudo apt-get install chromium-chromedriver`
+`Download the .zip from 'https://chromedriver.chromium.org/downloads' according to your Chrome/Chromium Version`
+
+`unzip chromedriver_linux64.zip`
+
+`mv chromedriver_linux64/* /usr/lib/chromium-browser/`
 
 `Uncomment Line 9 in 'zoom_bot.py'`
 
