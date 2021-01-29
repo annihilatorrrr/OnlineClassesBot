@@ -5,7 +5,8 @@ from config import delay, meeting_links as links
 
 class zoom_bot:
 	def join_meeting(self,meeting_link):
-		self.bot = webdriver.Chrome("chromedriver.exe")
+#		self.bot = webdriver.Chrome("chromedriver.exe")
+#		self.bot = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver")
 		self.bot.get(meeting_link)
 		time.sleep(5)
 		keyboard.send("tab", do_press=True, do_release=True)

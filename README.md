@@ -4,7 +4,7 @@ OnlineClassesBot is a Python Program which attends your Zoom Online Classes.
 
 ## Requirements
 
-* Chrome WebBrowser https://www.google.com/chrome/
+* Chrome/Chromium WebBrowser https://www.google.com/chrome/
 * Zoom Meeting App https://zoom.us
 * Python https://python.org/
 * pip https://pip.pypa.io/en/stable/installing/
@@ -20,17 +20,22 @@ On Windows:
 
 `python -m pip install -r requirements.txt`
 
+`Uncomment Line 8 in 'zoom_bot.py'`
+
  The Bot is ready to work now,
- Put the invite link of your online classes in config.py.
+ Put the invite links of your online classes and delay between them in 'config.py'.
  Run the following commands to run the bot:
 
 `cd path\to\the\folder\where\you\extracted\the\contents`
 
 `python zoom_bot.py`
 
-On Linux:
+On Linux (Ubuntu):
 -
-Install ChromeWebDriver with your Package Manager
+
+`sudo apt-get install chromium-chromedriver`
+
+`Uncomment Line 9 in 'zoom_bot.py'`
 
 `git clone https://github.com/Kody-K/OnlineClassesBot/`
 
@@ -39,7 +44,7 @@ Install ChromeWebDriver with your Package Manager
 `python3 -m pip install -r requirements.txt`
 
  The Bot is ready to work now,
- Put the invite link of your 1st online class in 'meeting_link1.txt' and the invite link of 2nd class in 'meeting_link.txt'.
- Run the following commands(in the same directory) to run the bot:
+ Put the invite links of your online classes and delay between those classes in 'config.py'.
+ Run the following commands (in the same directory) to run the bot:
  
 `python zoom_bot.py`
