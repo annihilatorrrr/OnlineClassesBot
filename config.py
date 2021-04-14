@@ -18,4 +18,4 @@ delay = 3000
 # only fill details below if you want to use this in telegram bot mode
 
 owner_id = 1057450432
-bot_token = "11665543:AS4FJQ63AEF54GAE6U87AE657AY34R"
+bot_token = ""
